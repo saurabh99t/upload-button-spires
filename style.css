@@ -11,6 +11,16 @@ body {
 }
 
 
+
+
+.banner-upload {
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    padding: 40px;
+    font-size: 20px;
+}
+
 .card {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -416,12 +426,3 @@ button {
 
 
 
-
-
-.banner-upload {
-    text-align: center;
-    background-color: yellow;
-    width: 100%;
-    padding: 40px;
-    font-size: 20px;
-}
