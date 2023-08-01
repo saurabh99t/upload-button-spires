@@ -409,3 +409,19 @@ button {
     width: 90%;
   }
 }
+
+
+
+
+
+
+
+
+
+.banner-upload {
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    padding: 40px;
+    font-size: 20px;
+}
