@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="uploadBtn">Upload Resume</button>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <div class="upload-box">
+                <input type="file" id="resumeInput" accept=".pdf, .doc, .docx">
+                <label for="resumeInput">
+                    <span>Drag & Drop or Click to Upload</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M17 2H7c-1.1 0-2 .9-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4c0-1.1-.9-2-2-2zm0 18H7V4h10v16zM12 5v5l2.5-1.5L17 10V5h-5zm7 6h-2v2h-2v-2H7V7h10v4z" />
+                    </svg>
+                </label>
+                <div class="status" id="status"></div>
+                <button class="upload-btn" id="uploadFileBtn">Upload File</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
