@@ -426,3 +426,63 @@ button {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* Existing CSS styles as in the previous example */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container label {
+    font-size: 14px;
+    color: #555;
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Rest of the CSS styles as in the previous example */
+
+
+
+
+
+
+/* Existing CSS styles as in the previous example */
+
+.submit-btn {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
